@@ -4,5 +4,14 @@ function getSentence() {
 }
 
 function searchVocals(sentence) {
+    const inputElement = document.getElementById('searchVocals_in_sentence')
+    const vocals_for_search = ['a', 'e', 'i', 'o', 'u'];
+    let foundedVocals = [];
 
+    for(let char of inputElement.value) {
+        if(vocals_for_search.includes(char)){
+            foundedVocals.push(char);
+        }
+    }
+    console.log(foundedVocals)
 }
