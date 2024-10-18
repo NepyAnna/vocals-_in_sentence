@@ -15,3 +15,8 @@ function searchVocals(sentence) {
     }
     console.log(foundedVocals)
 }
+
+function deleteDuplicity(list) {
+    const inputElement = document.getElementById('sentence_get_undubpicate').value
+    
+}
