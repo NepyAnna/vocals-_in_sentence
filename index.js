@@ -23,3 +23,9 @@ function deleteDuplicity() {
     let uniqArray = [... new Set(array)];
     console.log(uniqArray);
 }
+
+function getVocals() {
+    const inputElement = document.getElementById('').value
+    
+
+}
